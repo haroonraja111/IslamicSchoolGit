@@ -1,0 +1,15 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import '~@fortawesome/fontawesome-free/css/solid.css';
+@import '~@fortawesome/fontawesome-free/css/regular.css';
+@import '~@fortawesome/fontawesome-free/css/brands.css';
+
+
+<i class="fa fa-home"></i>
+<!-- Solid icons -->
+<i class="fas fa-home"></i>
+
+<!-- Regular icons -->
+<i class="far fa-home"></i>
+
+<!-- Brands icons -->
+<i class="fab fa-font-awesome"></i>
