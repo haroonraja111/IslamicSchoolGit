@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
-  border: 1px solid transparent;
+  /* border: 1px solid red; */
 }
 :host {
   --color-1: #f5dc65;
@@ -27,6 +27,7 @@ body {
 #header-section {
   position: relative;
   top: 10px;
+  background-color:  bisque;
 }
 #header-row {
   max-width: 103%;
@@ -36,14 +37,14 @@ body {
 }
 #header-col-1 {
   position: relative;
-  left: 103px;
+  left: 0;
   display: flex;
   justify-content: center;
   max-width: 60%;
 }
 #header-col-1 p {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
 }
 #header-col-2 {
   display: flex;

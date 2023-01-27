@@ -1,0 +1,207 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import "~@fortawesome/fontawesome-free/css/solid.css";
+@import "~@fortawesome/fontawesome-free/css/regular.css";
+@import "~@fortawesome/fontawesome-free/css/brands.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+:host {
+  --color-1: #bc9c00;
+  --color: #586e6b;
+  --background: #fff;
+  --box-color: #daf1d0;
+}
+body {
+  background-color: #fff;
+  height: 100vh;
+}
+#parent-section {
+  height: 100vh;
+  background: linear-gradient(to bottom, #daf1d0 21%, var(--background) 100%);
+}
+/* top back button styling start here */
+#top-back-btn {
+  max-width: 10vh;
+}
+#top-back-btn .col {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  font-size: 24px;
+  color: var(--color);
+}
+/* top back button styling start here */
+
+/* main img styling start here */
+#main-img-row {
+  position: absolute;
+  left: 12px;
+  max-width: 100%;
+}
+#main-img-row .col {
+  display: flex;
+  justify-content: center;
+}
+#main-img-row .col img {
+  max-width: 70%;
+}
+/* main img styling start here */
+
+/* Teacher name data section start here */
+#teacher-info-row {
+  position: absolute;
+  top: 366px;
+  right: 54px;
+  left: 45px;
+}
+
+#teacher-info-col {
+  display: grid;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+#teacher-info-col h2 {
+  color: var(--color-1);
+  font-size: 20px;
+}
+#teacher-info-col abbr {
+  color: var(--color);
+  font-size: 20px;
+}
+#teacher-info-col p {
+  font-size: 15px;
+  color: var(--color);
+}
+#teacher-btn-col {
+  display: grid;
+  justify-content: flex-end;
+  align-content: center;
+}
+#teacher-btn-col button {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: var(--color-1);
+  border-radius: 26px;
+  height: 53px;
+  line-height: 1px;
+  width: 158%;
+}
+/* Teacher deatail row styling section start here */
+#teacher-details-row {
+  position: absolute;
+  top: 480px;
+  left: 10px;
+  right: 16px;
+  display: grid;
+  grid-template-columns: 192px 193px;
+  row-gap: 17px;
+}
+#teacher-details-col-1 {
+  max-width: 90%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 14vh;
+  background: var(--box-color);
+  border-radius: 15px;
+  box-shadow: rgb(9 30 66 / 25%) 0px 1px 1px, rgb(9 30 66 / 13%) 0px 0px 1px 1px;
+  text-align: center;
+}
+#teacher-details-col-1 h2 {
+  font-size: 20px;
+  color: var(--color);
+}
+#teacher-details-col-1 p {
+  color: var(--color);
+}
+#teacher-details-col-2 {
+  max-width: 90%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  height: 14vh;
+  background: var(--box-color);
+  border-radius: 15px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+#teacher-details-col-2 h2 {
+  font-size: 20px;
+  color: var(--color);
+}
+#teacher-details-col-2 p {
+  color: var(--color);
+}
+#teacher-details-col-3 {
+  max-width: 90%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  height: 14vh;
+  background: var(--box-color);
+  border-radius: 15px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+#teacher-details-col-3 h2 {
+  font-size: 20px;
+  color: var(--color);
+}
+#teacher-details-col-3 p {
+  color: var(--color);
+}
+#teacher-details-col-4 {
+  max-width: 90%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  height: 14vh;
+  background: var(--box-color);
+  border-radius: 15px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+#teacher-details-col-4 h2 {
+  font-size: 20px;
+  color: var(--color);
+}
+#teacher-details-col-4 p {
+  color: var(--color);
+}
+#teacher-details-col-4 i {
+  color: var(--color);
+  padding-left: 9px;
+}
+
+/*   Footer button section styling start here  */
+#footer-btn-section {
+  position: relative;
+  top: -89px;
+}
+#footer-btn-col {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+#footer-btn-col button {
+  background-color: var(--box-color);
+  height: 5vh;
+  width: 90vw;
+  color: var(--color);
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+/* footer button offcanvas section styling start here */

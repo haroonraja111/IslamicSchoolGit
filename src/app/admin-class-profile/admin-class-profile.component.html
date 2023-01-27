@@ -1,0 +1,229 @@
+<body>
+
+    <section> <!-- header back-btn section  -->
+        <div class="row" id="back-btn-row">
+            <div class="col" id="back-btn-col">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="hero-section"><!-- hero section start here -->
+        <div class="row" id="hero-section-row">
+            <div class="col" id="hero-section-col">
+                <h1>Class Name</h1>
+                <p>Teacher : Alison</p>
+            </div>
+        </div>
+    </section>
+    <section id="main-section">
+        <div class="row" id="main-section-row">
+
+            <!-- Student box start here -->
+            <div class="col" id="main-section-student-box">
+
+                <div class="row" id="student-box-top-row">
+                    <div class="col" id="student-box-top-col-1">
+                        <img src="/assets/boy.png" alt="">
+                    </div>
+                    <div class="col" id="student-box-top-col-2">
+                        <div id="dots"></div>
+                        <div id="dots"></div>
+                        <div id="dots"></div>
+                    </div>
+                </div>
+
+                <div class="row" id="student-box-main-row">
+                    <div class="col" id="student-box-main-col">
+                        <h1>67+</h1>
+                        <p>Students</p>
+                    </div>
+                </div>
+
+                <div class="row" id="student-box-footer-row">
+                    <div class="col" id="student-box-footer-col">
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Edit class data box start here -->
+            <div class="col" id="edit-class-data-box" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <div class="row" id="edit-class-inner-row">
+                    <div class="col" id="edit-class-inner-col-1">
+                        <h1>Edit Class data</h1>
+                    </div>
+                    <div class="col" id="edit-class-inner-col-2">
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Edit class data offcanvas start here -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel"></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <!-- Header section start here -->
+                    <section id="header-heading-sec">
+                        <div class="row" id="header-heading-row">
+                            <div class="col">
+                                <h1>Edit Branch Data</h1>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- input-field section start here -->
+                    <section id="input-field-section">
+                        <form action="">
+                            <div class="row" id="input-field-row">
+                                <div class="col" id="name-col">
+                                    <p>Branch name</p>
+                                    <input type="text">
+                                </div>
+                                <div class="col" id="name-col">
+                                    <p>Brampton</p>
+                                    <input type="text">
+                                </div>
+                                <div class="col" id="address-col">
+                                    <p>352 Circle Ave.
+                                        Long Branch, NJ 07740</p>
+                                    <input type="text">
+                                </div>
+                                <div class="col" id="city-col">
+                                    <p>Nijerea</p>
+                                    <input type="text">
+                                </div>
+                                <div class="col" id="contact-col">
+                                    <p>Contact</p>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+
+                    <section id="footer-btn-section">
+                        <div class="row" id="footer-btn-row">
+                            <div class="col" id="footer-btn-col-1">
+                                <button class="btn">cancel</button>
+                            </div>
+                            <div class="col" id="footer-btn-col-2">
+                                <button class="btn">Save</button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Teacher profile box start here -->
+            <div class="col" id="teacher-profile-box" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <div class="row" id="teacher-profile-box-inner-row">
+                    <div class="col" id="teacher-profile-box-inner-col-1">
+                        <h1>Teacher Profile</h1>
+                    </div>
+                    <div class="col" id="teacher-profile-box-inner-col-2">
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Supervisor data offcanvas start here -->
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <!-- offcanvas header start-->
+                <div class="offcanvas-body" id="teacher-offcanvas-body">
+                    <div class="supervisor-offcanvas-header">
+
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close">
+                        </button>
+                    </div>
+                    <div class="row" id="teacher-offcanvas-row">
+                        <div class="col">
+                            <img src="/assets/bussiness-man.png" alt="">
+                        </div>
+                    </div>
+                </div> <!-- offcanvas header ends-->
+
+                <!-- offcanvas name details start -->
+                <div class="row" id="offcanvas-hero">
+                    <div class="col" id="offcanves-name-col">
+
+                        <h5 class="offcanvas-title" id="offcanvas-header">Teacher</h5>
+                        <h2>Stefan Garlson</h2>
+                        <p>Stefan123@gmail.com
+                        </p>
+                    </div>
+                    <div class="col" id="offcanves-edit-col">
+                        <div class="col">
+                            <i class="fa fa-user-pen"></i>
+                        </div>
+                    </div>
+                </div> <!-- offcanvas name details start -->
+
+                <div class="row" id="offcanvas-main">
+                    <div class="col">
+                        <h3>Father name</h3>
+                        <p>Harada</p>
+                    </div>
+                    <div class="col">
+                        <h3>Contact #</h3>
+                        <p>+51 000 000</p>
+                    </div>
+                    <div class="col">
+                        <h3>Teaching</h3>
+                        <p>Branch A</p>
+                    </div>
+                    <div class="col">
+                        <h3>Socials</h3>
+                        <p>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </p>
+                    </div>
+                </div>
+
+            </div> <!-- Supervisor data offcanvas start here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- class img box styling start here -->
+            <div class="col" id="class-img-box">
+                <div class="row" id="class-box-row" >
+                    <div class="col" id="class-box-col" style="border: 1px solid red;">
+                       <img src="/assets/students.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>

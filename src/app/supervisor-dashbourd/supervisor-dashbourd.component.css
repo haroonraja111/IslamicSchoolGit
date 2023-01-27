@@ -1,0 +1,420 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import '~@fortawesome/fontawesome-free/css/solid.css';
+@import '~@fortawesome/fontawesome-free/css/regular.css';
+@import '~@fortawesome/fontawesome-free/css/brands.css';
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  border: 1px solid transparent;
+}
+:host {
+  --color-1: #dba100;
+  --color: #586e6b;
+  --background: #fff;
+  --box-color: #D0EFC4;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to top, #fff 0%, var(--box-color) 100%);
+}
+
+/* Header section styling start here */
+#header-section{
+    position: relative;
+    top: 6px;
+}
+#header-row .col i{
+    font-size: 24px;
+    color: var(--color);
+    position: relative;
+    left: 10px;
+}
+
+
+/* Hero-section styling start here  */
+#hero-section{
+    position: relative;
+    top: 49px;
+}
+#hero-col-1{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+#hero-col-1 .row{
+    display: grid;
+    grid-template-columns: 200px;
+}
+#hero-col-inner-1{
+    display: grid;
+    justify-content: flex-end;
+}
+#hero-col-inner-1 i{
+    font-size: 20px;
+    color: var(--color);
+}
+#hero-col-inner-2{
+    display: grid;
+    justify-content: center;
+    color: var(--color);
+}
+#hero-col-2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+#hero-col-2 img{
+    max-width: 44vw;
+}
+/* Main section styling start here */
+#main-section{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    position: relative;
+    top: 143px;
+    padding: 10px;
+}
+#main-sec-first-row{
+    display: grid;
+    grid-template-columns: 191px;
+    row-gap: 1rem;
+    width: 49vw;
+
+}
+/* teacher box styling  */
+#teacher-col{
+    max-width: 94%;
+    height: 31vh;
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #F5E6B7;
+    color: #eeb300;
+}
+#teacher-box-inner-row{
+    display: grid;
+    grid-template-columns: 160px;
+}
+#teacher-box-inner-col-1{
+    display: grid;
+    justify-content: flex-end;
+    align-content: center;
+    height: 32px;
+}
+#teacher-box-inner-col-2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 24vh;
+    font-size: 25px;
+}
+#teacher-box-inner-col-3{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+
+/* massage box styling start here */
+#message-board-col{
+    max-width: 94%;
+    height: 16vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #CAEF8F;
+    color: #456e03;
+}
+#message-board-col .row{
+    display: grid;
+    grid-template-columns: 102px 20px;
+}
+#message-inner-col-1{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+#message-inner-col-2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+#main-sec-second-row{
+    display: grid;
+    grid-template-columns: 192px;
+    row-gap: 1rem;
+    position: relative;
+    left: 94px;
+    width: 44vw;
+}
+
+/* Branch box section styling  */
+#branch-profile-col{
+    max-width: 88%;
+    height: 16vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #F5C9C1;
+    color: #f95538;
+}
+#branch-profile-col .row{
+    display: grid;
+    grid-template-columns: 102px 20px;
+}
+#branch-inner-col-1{
+    display: grid;
+    justify-content: center;
+}
+#branch-inner-col-2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+/* Branch offcanvas section styling start here */
+#offcanvasRight{
+    background: linear-gradient(to top, #fff 0%, var(--box-color) 0%);    
+}
+#offcanvas-btn-row{
+    position: relative;
+    top: 5px;
+    left: 0;
+}
+#offcanvas-btn-col{
+    width: 98vw;
+    display: grid;
+    height: 4vh;
+    justify-content: flex-end;
+    align-content: center;
+}
+#offcanvas-btn-col button{
+    position: relative;
+    right: 16px;
+    color: var(--color);
+}
+#offcanvas-profile-row{
+    display: grid;
+    grid-template-columns: 133px 250px;
+}
+#offcanvas-profile-sec{
+    position: relative;
+    top: 30px;
+}
+#offcanvas-profile-col-1{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+#offcanvas-profile-col-1 img{
+    width: 20vw;
+}
+#offcanvas-profile-col-2{
+    display: grid;
+    align-content: center;
+    color: var(--color);
+}
+#offcanvas-main-section{
+    position: relative;
+    top: 93px;
+}
+#offcanvas-main-row{
+    display: grid;
+    grid-template-columns: 381px;
+    row-gap: 10px;
+}
+#offcanvas-main-col-1{
+    height: 9vh;
+    padding: 8px;
+}
+#offcanvas-main-col-1 h2{
+    color: var(--color);
+    font-size: 20px;
+}
+#offcanvas-main-col-1 p{
+    color: var(--color-1);
+    padding-top: 8px;
+}
+#offcanvas-main-col-1 div{
+    border-bottom: 1px solid var(--color);
+    opacity: 0.3;
+}
+#offcanvas-main-col-2{
+    height: 10vh;
+    padding: 8px;
+}
+#offcanvas-main-col-2 h2{
+    color: var(--color);
+    font-size: 20px;
+}
+#offcanvas-main-col-2 p{
+    color: var(--color-1);
+    padding-top: 8px;
+}
+#offcanvas-main-col-2 div{
+    border-bottom: 1px solid var(--color);
+    opacity: 0.3;
+}
+#offcanvas-main-col-3{
+    height: 9vh;
+    padding: 8px;
+}
+#offcanvas-main-col-3 h2{
+    color: var(--color);
+    font-size: 20px;
+}
+#offcanvas-main-col-3 p{
+    color: var(--color-1);
+    padding-top: 8px;
+}
+#offcanvas-main-col-3 div{
+    border-bottom: 1px solid var(--color);
+    opacity: 0.3;
+}
+#offcanvas-main-col-4{
+    height: 9vh;
+    padding: 8px;
+}
+#offcanvas-main-col-4 h2{
+    color: var(--color);
+    font-size: 20px;
+}
+#offcanvas-main-col-4 p{
+    color: var(--color-1);
+    padding-top: 8px;
+}
+#offcanvas-main-col-4 div{
+    border-bottom: 1px solid var(--color);
+    opacity: 0.3;
+}
+/* Student box styling start here */
+#student-col{
+    max-width: 88%;
+    height: 31vh ;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #F5DAB7;
+    color: #f99717;
+}
+#student-inner-row{
+    display: grid;
+    grid-template-columns: 155px;
+    grid-template-rows: 34px;
+}
+#student-inner-col-1{
+    display: grid;
+    justify-content: flex-end;
+    align-content: center;
+    height: 32px;
+}
+#student-inner-row-2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 24vh;
+    font-size: 22px;
+}
+#student-inner-col-3{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+
+/* i button offcanvas section styling start here*/
+#offcanvasExample{
+    background-color: var(--box-color);
+}
+.supervisor-offcanvas-header{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 5vh;
+    padding: 5px;
+}
+.supervisor-offcanvas-header button{
+    font-size: 20px;
+    position: relative;
+    right: 7px;
+}
+#teacher-offcanvas-row .col img{
+    width: 97vw;
+}
+/* - - - ===== - - - */
+#name-section-row{
+    display: grid;
+    grid-template-columns: 66% 40%;
+}
+#name-section-col-1{
+    display: grid;
+    justify-content: center;
+    padding: 7px;
+    color: var(--color);
+}
+#name-section-col-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 33vw;
+}
+#name-section-col-2 i{
+    font-size: 30px;
+    color: var(--color);
+}
+/* =-=-=-=-=-=-=--=--== */
+#main-detail-section{
+    position: relative;
+    top: 20px;
+    padding: 4px;
+}
+#main-detail-row{
+    display: grid;
+    grid-template-columns: 51% 48%;
+    column-gap: 5px;
+    row-gap: 5px;
+    height: 28vh;
+}
+#main-detail-col-1{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #c7f3b5;
+    border-radius: 15px;
+    color: var(--color-1);
+}
+#main-detail-col-2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #c7f3b5;
+    border-radius: 15px;
+    color: var(--color-1);
+}
+#main-detail-col-3{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #c7f3b5;
+    border-radius: 15px;
+    color: var(--color-1);
+}
+#main-detail-col-4{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #c7f3b5;
+    border-radius: 15px;
+    color: var(--color-1);
+}
