@@ -14,10 +14,6 @@
 :host {
   --color-1: #bc9c00;
   --color: #586e6b;
-  --background: #fff;
-  --box-color: #daf1d0;
-  --color-1: #bc9c00;
-  --color: #586e6b;
   --box-color: #daf1d0;
   --main-family: "Rubik", sans-serif;
   --background-color: #d0efc4;
@@ -104,6 +100,91 @@ body {
   line-height: 1px;
   width: 10vw;
 }
+/* add-student button offcanvas styling start here */
+#offcanvasExample {
+  background-color: var(--background-color);
+}
+.offcanvas-header .row .col {
+  width: 100vw;
+  height: 5vh;
+  float: right;
+  display: grid;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+  font-size: 20px;
+}
+.offcanvas-header .row .col .btn {
+  color: var(--font-color);
+}
+#hero-heading-row {
+  height: 20vh;
+}
+#hero-heading-col {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  color: var(--font-color);
+}
+
+/* offcanvas accordians styling start here */
+#panelsStayOpen-headingOne {
+  padding: 10px;
+  background-color: var(--background-color);
+}
+#panelsStayOpen-collapseOne {
+  background-color: var(--background-color);
+}
+#first-accordion-btn {
+  background-color: var(--font-color);
+  color: var(--golden);
+  font-size: 27px;
+  border-radius: 8px;
+  padding: 10px;
+}
+#first-accordion-form-row {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 96vw;
+  gap: 10px;
+}
+input[type="text"] {
+  border-bottom: 1px solid var(--font-color);
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background: none;
+  outline: none;
+  width: 85vw;
+}
+#first-accordion-col-1,
+#first-accordion-col-2,
+#first-accordion-col-3,
+#first-accordion-col-4,
+#first-accordion-col-5,
+#first-accordion-col-6 {
+  display: block;
+  padding: 20px 8px 20px 15px;
+  color: var(--font-color);
+}
+#panelsStayOpen-headingTwo {
+  padding: 10px;
+  background-color: var(--background-color);
+}
+#sec-accordion-btn {
+  background-color: var(--font-color);
+  color: var(--golden);
+  font-size: 27px;
+  border-radius: 8px;
+  padding: 10px;
+}
+#sec-accordion-form-row {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 96vw;
+  background-color: var(--background-color);
+  gap: 10px;
+}
 /* Teacher deatail row styling section start here */
 #teacher-details-row {
   position: absolute;
@@ -123,6 +204,8 @@ body {
   height: 14vh;
   background: #c2e3b4;
   border-radius: 15px;
+  /* box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; */
 }
 #teacher-details-col-1 h2 {
   font-size: 20px;
@@ -140,6 +223,8 @@ body {
   height: 14vh;
   background: #c2e3b4;
   border-radius: 15px;
+  /* box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; */
 }
 #teacher-details-col-2 h2 {
   font-size: 20px;
@@ -157,6 +242,8 @@ body {
   height: 14vh;
   background: #c2e3b4;
   border-radius: 15px;
+  /* box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; */
 }
 #teacher-details-col-3 h2 {
   font-size: 20px;
@@ -174,6 +261,8 @@ body {
   height: 14vh;
   background: #c2e3b4;
   border-radius: 15px;
+  /* box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; */
 }
 #teacher-details-col-4 h2 {
   font-size: 20px;
@@ -200,14 +289,30 @@ body {
   font-weight: 600;
   color: var(--color);
   background-color: #c2e3b4;
+  /* box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; */
 }
 
-/* #profile-section {
-    height: 101px;
-    position: relative;
-    top: 42px;
-    left: 16px;
-    width: 88vw;
+/* footer button offcanvas section styling start here */
+.offcanvas {
+  height: 100vh;
+  background-color: var(--box-color);
+}
+.offcanvas-header {
+  display: flex;
+  justify-content: end;
+}
+#btn-close {
+  position: relative;
+  top: 20px;
+  right: 19px;
+}
+#profile-section {
+  height: 101px;
+  position: relative;
+  top: 42px;
+  left: 16px;
+  width: 88vw;
 }
 
 #profile-img-row #profile-img-col-1 img {
@@ -246,11 +351,95 @@ body {
   grid-template-columns: 100%;
   row-gap: 1rem;
   height: 100%;
-} */
+}
 /* Guardain-detail-col-1 - - - - - - - */
+#Guardain-detail-col-1 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  width: 90vw;
+  left: 16px;
+}
+#Guardain-detail-col-1 .col {
+  border-bottom: 1px solid var(--color);
+  display: grid;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+#Guardain-detail-col-1 .col h1 {
+  font-size: 20px;
+  color: var(--color);
+}
+#Guardain-detail-col-1 .col p {
+  color: var(--color-1);
+}
 /* Guardain-detail-col-2 - - - - - - - */
+#Guardain-detail-col-2 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  width: 90vw;
+  left: 16px;
+}
+#Guardain-detail-col-2 .col {
+  border-bottom: 1px solid var(--color);
+  display: grid;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+#Guardain-detail-col-2 .col h1 {
+  font-size: 20px;
+  color: var(--color);
+}
+#Guardain-detail-col-2 .col p {
+  color: var(--color-1);
+}
 /* Guardain-detail-col-3 - - - - - - - */
+#Guardain-detail-col-3 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  width: 90vw;
+  left: 16px;
+}
+#Guardain-detail-col-3 .col {
+  border-bottom: 1px solid var(--color);
+  display: grid;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+#Guardain-detail-col-3 .col h1 {
+  font-size: 20px;
+  color: var(--color);
+}
+#Guardain-detail-col-3 .col p {
+  color: var(--color-1);
+}
 /* Guardain-detail-col-4 - - - - - - - */
+#Guardain-detail-col-4 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  width: 90vw;
+  left: 16px;
+}
+#Guardain-detail-col-4 .col {
+  border-bottom: 1px solid var(--color);
+  display: grid;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+#Guardain-detail-col-4 .col h1 {
+  font-size: 20px;
+  color: var(--color);
+}
+#Guardain-detail-col-4 .col p {
+  color: var(--color-1);
+}
 /* footer img section styling start here  */
 #footer-img-section {
   position: relative;
@@ -271,97 +460,4 @@ body {
 }
 #footer-img-row .col img {
   max-width: 65%;
-}
-
-
-
-
-
-
-
-
-
-#header-heading-row{
-    height: 20vh;
-    padding: 8px;
-}
-#header-heading-row .col{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-}
-#header-heading-row .col h1{
-    color: var(--color);
-}
-
-/* input field section styling start here */
-#input-field-row{
-    display: grid;
-    grid-template-columns: 100%;
-    row-gap: 10px;
-    position: relative;
-    top: 0;
-}
-input[type=text]{
-    border-top:0;
-    border-right:0;
-    border-left: 0;
-    border-bottom: 1px solid ;
-    background: none;
-    outline: none;
-    width: 89vw;
-}
-#name-col{
-   height: 11vh;
-   padding: 15px;
-   color: var(--color-1);
-}
-#address-col{
-    height: 11vh;
-    padding: 15px;
-    color: var(--color-1);
-}   
-#city-col{
-    height: 11vh;
-    padding: 15px;
-    color: var(--color-1);
-}
-#contact-col{
-    height: 11vh;
-    padding: 15px;
-    color: var(--color-1);
-}
-/* footer buttons section styling start here */
-#footer-btn-section{
-    position: relative;
-    top: 40px;
-}
-#footer-btn-row1{
-    position: absolute;
-  top: 78px;
-  left: 11px;
-  width: 94%;
-}
-#footer-btn-col-1{
-    display: grid;
-    justify-content: center;
-    align-content: center;
-}
-#footer-btn-col-1 button{
-    width: 20vw;
-    height: 5vh;
-    color: var(--box-color);
-    background-color: var(--color);
-}
-#footer-btn-col-2{
-    display: grid;
-    justify-content: center;
-    align-content: center;
-}
-#footer-btn-col-2 button{
-    width: 20vw;
-    color: var(--box-color);
-    height: 5vh;
-    background-color: var(--color);
 }

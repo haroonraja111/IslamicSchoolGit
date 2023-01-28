@@ -1,45 +1,35 @@
 <body>
-    <section id="main-Section">
 
-        <section> <!--header-section start-->
-            <div class="row" id="header-row">
-                <div class="col" id="first-icon-col">
+    <section id="parent-section">
+        <section>
+            <div class="row" id="top-back-btn">
+                <div class="col">
                     <i class="fa fa-arrow-left" aria-hidden="true"></i>
                 </div>
-                <div class="col" id="second-icon-col">
-                    <!-- Three dots html start here -->
-                    <span class="dot" style="margin:0px;"></span>
-                    <span class="dot" style="margin:3px;"></span>
-                    <span class="dot"></span>
+            </div>
+        </section>
+
+        <section>
+            <div class="row" id="main-img-row">
+                <div class="col">
+                    <img src="/assets/student.png" alt="">
                 </div>
             </div>
-        </section> <!--header-section end-->
+        </section>
 
-
-        <section id="hero"> <!-- Hero-Section start-->
-            <div class="row" id="hero-row">
-                <div class="col" id="hero-heading">
-                    <h1>Students</h1>
-                    <h5><span>Currently 400+</span><span>Students in Class</span></h5>
-
+        <section>
+            <div class="row" id="teacher-info-row">
+                <div class="col" id="teacher-info-col">
+                    <h2>Student</h2>
+                    <abbr>Johnson Doe</abbr>
+                    <p>Roll # 1234</p>
                 </div>
-                <div class="col" id="hero-img-col">
-                    <img src="/assets/students.png" alt="">
+                <div class="col" id="teacher-btn-col">
+                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                        aria-controls="offcanvasExample"><i class="fa fa-plus" aria-hidden="true"></i></button>
                 </div>
-            </div>
-        </section> <!--Hero-Section end-->
 
-        <section id="sortby-sec-parent"> <!--------Main Section start here--------->
-            <section id="sortby-main"> <!---------Sort-by section start --------->
-                <div class="row" id="sortby-sec-row">
-                    <div class="col" id="dropdown-btn">
-                        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-                            aria-controls="offcanvasExample">AddStudent</button>
-                    </div>
-                    <div class="col" id="search-col">
-                        <a><i class="fa fa-search" aria-hidden="true"></i></a>
-                    </div>
-                </div>
+
 
                 <!-- add-student button offcanvas section start here -->
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
@@ -150,70 +140,117 @@
                         </div>
                     </div>
                 </div>
-            </section> <!--------Sort-by section start ---------->
-
-            <section> <!--------Main Section branch-list start here--------->
-                <div class="row" id="main-sec-row">
-                    <div class="col-12" id="main-sec-box1">
-                        <div class="row">
-                            <div class="col-9" id="branch-name-col">
-                                <h3>Student A</h3>
-                                <p> Robert Robertson, 1234 NW Bobcat Lane, St. Robert.</p>
-                            </div>
-
-                            <div class="col-3" id="branch-icon-col">
-                                <i class="fa fa-chevron-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12" id="main-sec-box2">
-                        <div class="row">
-                            <div class="col-9" id="branch-name-col">
-                                <h3>Student B</h3>
-                                <p> Robert Robertson, 1234 NW Bobcat Lane, St. Robert.</p>
-                            </div>
-
-                            <div class="col-3" id="branch-icon-col">
-                                <i class="fa fa-chevron-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12" id="main-sec-box3">
-                        <div class="row">
-                            <div class="col-9" id="branch-name-col">
-                                <h3>Student C</h3>
-                                <p> Robert Robertson, 1234 NW Bobcat Lane, St. Robert.</p>
-                            </div>
-
-                            <div class="col-3" id="branch-icon-col">
-                                <i class="fa fa-chevron-right"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12" id="main-sec-box4">
-                        <div class="row">
-                            <div class="col-9" id="branch-name-col">
-                                <h3>Student D</h3>
-                                <p> Robert Robertson, 1234 NW Bobcat Lane, St. Robert.</p>
-                            </div>
-
-                            <div class="col-3" id="branch-icon-col">
-                                <i class="fa fa-chevron-right"></i>
-                            </div>
-                        </div>
-                    </div>
 
 
 
-                </div>
-            </section> <!--------Main Section branch-list ends here--------->
-        </section> <!------Main section end here--------->
 
 
-        <section id="pagination-sec">
 
+
+
+
+
+
+
+
+
+            </div>
         </section>
 
+        <section>
+            <div class="row" id="teacher-details-row">
+                <div class="col" id="teacher-details-col-1">
+                    <h2>Father name</h2>
+                    <p>Ibn-e-Batoota</p>
+                </div>
+                <div class="col" id="teacher-details-col-2">
+                    <h2>Contact #</h2>
+                    <p>+51 00 00 00</p>
+                </div>
+                <div class="col" id="teacher-details-col-3">
+                    <h2>Registration #</h2>
+                    <p>88 99 00 11 55</p>
+                </div>
+                <div class="col" id="teacher-details-col-4">
+                    <h2>Address</h2>
+                    <p>Lane # 123 xyz New York</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="row" id="footer-btn-row">
+                <div class="col" id="footer-btn-col">
+                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                        aria-controls="offcanvasTop">View Gaurdain
+                        <i class="fa fa-angle-down"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Offcanvas for Gaurdain data start here -->
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                    <!-- <h5 id="offcanvasTopLabel">Offcanvas top</h5> -->
+                    <button id="btn-close" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <section id="profile-section">
+                        <div class="row" id="profile-img-row">
+                            <div class="col" id="profile-img-col-1">
+                                <img src="/assets/headmaster.png" alt="">
+                            </div>
+                            <div class="col" id="profile-img-col-2">
+                                <h1>Gaurdain A</h1>
+                            </div>
+                            <hr id="hr">
+                        </div>
+                    </section>
+
+                    <section id="Guardain-detail-section">
+                        <div class="row" id="Guardain-detail-row">
+                            <div class="col" id="Guardain-detail-col-1">
+                                <div class="col">
+                                    <h1>Father's Name</h1>
+                                    <p>Tupac Shakur</p>
+                                </div>
+                            </div>
+                            <div class="col" id="Guardain-detail-col-2">
+                                <div class="col">
+                                    <h1>Contact #</h1>
+                                    <p>+51 00 21 00 33</p>
+                                </div>
+                            </div>
+                            <div class="col" id="Guardain-detail-col-3">
+                                <div class="col">
+                                    <h1>Address</h1>
+                                    <p>43 Stonepot Road, Teterboro, New Jersey</p>
+                                </div>
+                            </div>
+                            <div class="col" id="Guardain-detail-col-4">
+                                <div class="col">
+                                    <h1>CNIC #</h1>
+                                    <p>41303-4270422-4 </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- footer img section start here -->
+                    <section id="footer-img-section">
+                        <div class="row" id="footer-img-row">
+                            <div class="col">
+                                <img src="/assets/home2_Flower.png" alt="">
+                            </div>
+                        </div>
+                    </section>
+                    <!-- footer img section start here -->
+                </div>
+            </div>
+            <!-- Offcanvas for Gaurdain data ends here -->
+        </section>
     </section>
+    
 </body>

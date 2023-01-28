@@ -196,9 +196,11 @@ body {
 #offcanvas-main-row{
   display: grid;
   grid-template-columns: 100%;
-  row-gap: 10px;
+  row-gap: 42px;
   justify-content: center;
-  height: 25vh;
+  /* height: 25vh; */
+  padding: 11px;
+
 }
 #offcanvas-main-row label{
   color: var(--golden);
@@ -210,7 +212,7 @@ input[type=text]{
   border-bottom: 1px solid var(--font-color);
   background: none;
   outline: none;
-  width: 67vw;
+  width: 93vw;
 }
 
 #offcanvas-main-col-1{
@@ -232,6 +234,7 @@ input[type=text]{
 #offcanvas-main-col-3 #btn{
   background-color: var(--golden);
   width: 26vw;
+  height: 5vh;
   color: var(--light-green);
 }
 

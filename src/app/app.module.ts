@@ -7,7 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { WaitingComponent } from './waiting/waiting.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { AdminBranchlistComponent } from './admin-branchlist/admin-branchlist.component';
+import { AdminBranchlistComponent } from './admin-branch-list/admin-branchlist.component';
 import { AdmicBranchProfileComponent } from './admin-branch-profile/admic-branch-profile.component';
 import { AdminTeacherListComponent } from './admin-teacher-list/admin-teacher-list.component';
 import { AdminTeacherProfileComponent } from './admin-teacher-profile/admin-teacher-profile.component';
@@ -30,6 +30,7 @@ import { TeacherDashboardComponent } from './teacher-dashboard/teacher-dashboard
 import { TeacherClassListComponent } from './teacher-class-list/teacher-class-list.component';
 import { TeacherProfileComponent } from './teacher-profile/teacher-profile.component';
 import { TeacherStudentListComponent } from './teacher-student-list/teacher-student-list.component';
+import { TeacherStudentProfileComponent } from './teacher-student-profile/teacher-student-profile.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { TeacherStudentListComponent } from './teacher-student-list/teacher-stud
     TeacherDashboardComponent,
     TeacherClassListComponent,
     TeacherProfileComponent,
-    TeacherStudentListComponent
+    TeacherStudentListComponent,
+    TeacherStudentProfileComponent
   ],
   imports: [
     BrowserModule,

@@ -4,7 +4,7 @@ import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { WaitingComponent } from './waiting/waiting.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { AdminBranchlistComponent } from './admin-branchlist/admin-branchlist.component';
+import { AdminBranchlistComponent } from './admin-branch-list/admin-branchlist.component';
 import { AdmicBranchProfileComponent } from './admin-branch-profile/admic-branch-profile.component';
 import { AdminTeacherListComponent } from './admin-teacher-list/admin-teacher-list.component';
 import { AdminTeacherProfileComponent } from './admin-teacher-profile/admin-teacher-profile.component';
@@ -27,6 +27,7 @@ import { TeacherDashboardComponent } from './teacher-dashboard/teacher-dashboard
 import { TeacherClassListComponent } from './teacher-class-list/teacher-class-list.component';
 import { TeacherProfileComponent } from './teacher-profile/teacher-profile.component';
 import { TeacherStudentListComponent } from './teacher-student-list/teacher-student-list.component';
+import { TeacherStudentProfileComponent } from './teacher-student-profile/teacher-student-profile.component';
 
 
 const routes: Routes = [
@@ -60,6 +61,7 @@ const routes: Routes = [
   {path:'teacher-class-list' , component:TeacherClassListComponent}, 
   {path:'teacher-profile' , component:TeacherProfileComponent},
   {path:'teacher-student-list' , component:TeacherStudentListComponent}, 
+  {path:'teacher-student-profile' , component:TeacherStudentProfileComponent}, 
 ];
 
 @NgModule({

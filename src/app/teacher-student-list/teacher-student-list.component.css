@@ -19,9 +19,9 @@ body {
 :host {
   --main-family: "Rubik", sans-serif;
   --background-color: #d0efc4;
-  --golden : #F1DD66 ; 
-  --half-green : #70C250; 
-  --font-color : #586a47 ;
+  --golden: #f1dd66;
+  --half-green: #70c250;
+  --font-color: #586a47;
 }
 #main-section {
   position: relative;
@@ -128,18 +128,18 @@ body {
   width: 100%;
   font-family: var(--main-family);
 }
-.btn-group {
-  position: absolute;
-  top: 26px;
-  right: 294px;
-  left: 17px;
-  bottom: 566px;
+div#dropdown-btn {
+  height: 5vh;
+  display: grid;
+  align-content: center;
+  padding-left: 17px;
 }
 #dropdown-btn button {
   color: #ffffff;
   background-color: #74c955;
   font-size: 13px;
   height: 4vh;
+  width: 25vw;
 }
 #search-col {
   display: grid;
@@ -152,6 +152,109 @@ body {
   position: relative;
   right: 22px;
 }
+/* add-student button offcanvas styling start here */
+#offcanvasExample {
+  background-color: var(--background-color);
+}
+.offcanvas-header .row .col {
+  width: 100vw;
+  height: 5vh;
+  float: right;
+  display: grid;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+  font-size: 20px;
+}
+.offcanvas-header .row .col .btn {
+  color: var(--font-color);
+}
+#hero-heading-row {
+  height: 20vh;
+}
+#hero-heading-col {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  color: var(--font-color);
+}
+
+/* offcanvas accordians styling start here */
+#panelsStayOpen-headingOne {
+  padding: 10px;
+  background-color: var(--background-color);
+}
+#panelsStayOpen-collapseOne {
+  background-color: var(--background-color);
+}
+#first-accordion-btn {
+  background-color: var(--font-color);
+  color: var(--golden);
+  font-size: 27px;
+  border-radius: 8px;
+  padding: 10px;
+}
+#first-accordion-form-row {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 96vw;
+  gap: 10px;
+}
+input[type="text"] {
+  border-bottom: 1px solid var(--font-color);
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background: none;
+  outline: none;
+  width: 85vw;
+}
+#first-accordion-col-1,
+#first-accordion-col-2,
+#first-accordion-col-3,
+#first-accordion-col-4,
+#first-accordion-col-5,
+#first-accordion-col-6 {
+  display: block;
+  padding: 20px 8px 20px 15px;
+  color: var(--font-color);
+}
+#panelsStayOpen-headingTwo{
+  padding: 10px;
+  background-color: var(--background-color);
+}
+#sec-accordion-btn{
+  background-color: var(--font-color);
+  color: var(--golden);
+  font-size: 27px;
+  border-radius: 8px;
+  padding: 10px;
+}
+#sec-accordion-form-row {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 96vw;
+  background-color: var(--background-color);
+  gap: 10px;
+}
+/* #first-accordion-col-1 input[type="text"] {
+  width: 91vw;
+}
+#first-accordion-col-2 input[type="text"] {
+  width: 91vw;
+}
+#first-accordion-col-3 input[type="text"] {
+  width: 91vw;
+}
+#first-accordion-col-4 input[type="text"] {
+  width: 65vw;
+}
+#first-accordion-col-5 input[type="text"] {
+  width: 73vw;
+}
+#first-accordion-col-6 input[type="text"] {
+  width: 77vw;
+} */
 
 /* ------------------------ */
 #main-sec-row {
